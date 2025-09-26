@@ -18,12 +18,24 @@ body {
 }
 
 .cuadros{
+    width: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 1.5px;
+    gap: 0px;
     margin: 20px;
+}
+
+.cuadros > div {
+    width: 300%;
+    height: 400%;
+    padding: 20px;
+    background: #555;
+    border: 2px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
 .Nombre{
@@ -95,4 +107,11 @@ body {
     border: 10px;
     border:3px solid gray;
     animation: borde-colores  4s linear infinite;
+}
+
+.idiomas{
+    text-align: 0 0;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px black;
+    border-bottom: 7px solid black;
 }
